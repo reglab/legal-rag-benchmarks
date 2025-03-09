@@ -1,0 +1,3461 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_401fc24610e1e9f38d2abe58318062e5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_401fc24610e1e9f38d2abe58318062e5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_401fc24610e1e9f38d2abe58318062e5 = L.map(
+                "map_401fc24610e1e9f38d2abe58318062e5",
+                {
+                    center: [37.314619482235095, -121.98358065057661],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a117db4caf638d91338b581fc22c8c89 = L.tileLayer(
+                "https://mapproxy.reglabapp.com/jawg-lagoon/{z}/{x}/{y}{r}.png",
+                {"attribution": "Jawg (jawg.io)", "detectRetina": false, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a117db4caf638d91338b581fc22c8c89.addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            var circle_marker_8043c82ea88b3ca580a4a786d114bd4d = L.circleMarker(
+                [37.15595193485433, -121.9853022438618],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.43397222266527, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_8043c82ea88b3ca580a4a786d114bd4d.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Map No. 3 of Redwood Estates <br>250 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9b34e8e2bdbe04e2d091b38963593e2f = L.circleMarker(
+                [37.45266379703136, -122.13924373993243],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.583318910615345, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_9b34e8e2bdbe04e2d091b38963593e2f.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Crescent Park Map No 3 <br>32 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fa61d62dca639ccc9a3b67d987a5ccc6 = L.circleMarker(
+                [37.31470863686602, -121.90259809161893],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.838814339703368, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_fa61d62dca639ccc9a3b67d987a5ccc6.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Riverside Park <br>34 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b8d51c264e66f91c5d08ffcf5db80005 = L.circleMarker(
+                [37.32732121557188, -121.9185701602215],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.458988972683082, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_b8d51c264e66f91c5d08ffcf5db80005.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Hanchett Court <br>39 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f571ed1954c00a78672d3adee937c3b6 = L.circleMarker(
+                [37.31067317941579, -121.8911102443428],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.922803312386448, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_f571ed1954c00a78672d3adee937c3b6.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Delwood Park <br>13 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d1123a6b395a0d9ae1add0d9cff1fe61 = L.circleMarker(
+                [37.33713082419747, -121.91202947409545],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.849558826044909, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_d1123a6b395a0d9ae1add0d9cff1fe61.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Alameda Park in the Rancho Potrero De Santa Clara <br>69 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5e4af7e31594c88cb2af9f9578e868e1 = L.circleMarker(
+                [37.29793316665585, -121.89201727272916],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.914990778411846, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_5e4af7e31594c88cb2af9f9578e868e1.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Narvaez Rancho Tract <br>20 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_067fed26a99cad7b9c5a205c4a35d264 = L.circleMarker(
+                [37.15824939827469, -121.98779065636087],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.663269823906433, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_067fed26a99cad7b9c5a205c4a35d264.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Redwood Estates Map No 2 Tract No 1 <br>157 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_29267ca28cd3f0a660648898ee9bcb0f = L.circleMarker(
+                [37.29783237608044, -121.89409850625967],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.849558826044909, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_29267ca28cd3f0a660648898ee9bcb0f.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Restwood Park Map No 2 <br>69 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6708727a2e4746e960cafabaec3ceb74 = L.circleMarker(
+                [37.453728747104456, -122.1463441065967],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.76074448634154, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_6708727a2e4746e960cafabaec3ceb74.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Dudfield Subd <br>19 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9e0fced31e7f2e18373914ddd58a5a64 = L.circleMarker(
+                [37.453514067305385, -122.14056387123894],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.319292285069531, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_9e0fced31e7f2e18373914ddd58a5a64.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Crescent Park Map No 2 <br>55 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_324895ee46c7d40e26dc6075f6042856 = L.circleMarker(
+                [37.43411798120597, -122.13839827047468],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.583318910615345, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_324895ee46c7d40e26dc6075f6042856.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Seale Tr Subd No 7 Resubd Blk 2 3 <br>32 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6ad737e9755be75d696f299851dbec20 = L.circleMarker(
+                [37.15080850819935, -121.99297442022926],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.527135628507603, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_6ad737e9755be75d696f299851dbec20.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Map No. 4 of Redwood Estates <br>66 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_df467c37663f888a95250b07725727a5 = L.circleMarker(
+                [37.226797747015524, -121.96635735997769],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.821421559766535, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_df467c37663f888a95250b07725727a5.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Fillmer Subd <br>12 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_14f8ef239283fdb9a34944372e16d23b = L.circleMarker(
+                [37.30794461079142, -121.89293786373686],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.42766961600002, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_14f8ef239283fdb9a34944372e16d23b.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Willow Glen Orchard Tract <br>84 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ecab8619a3f263a6010cb65e56905e7c = L.circleMarker(
+                [37.442468, -122.145273],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.066131444589949, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_ecab8619a3f263a6010cb65e56905e7c.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Subdivision of Block 100, Palo Alto <br>21 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cc35075b04d8f23311a6f8a8e05c9330 = L.circleMarker(
+                [37.33613196372126, -121.92977020008964],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.711658588683104, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_cc35075b04d8f23311a6f8a8e05c9330.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Burrells Resubd of Burrell Park Blk 2 and 3 <br>33 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0eb631eb3235363e81487be08d1f190c = L.circleMarker(
+                [37.299381, -121.861541],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.759862138431359, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_0eb631eb3235363e81487be08d1f190c.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Oak Hill Cemetery <br>97 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0bb105a3f719d0ca41bb089aa032f8ee = L.circleMarker(
+                [37.3791625492462, -121.81307861725095],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.360165411391558, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_0bb105a3f719d0ca41bb089aa032f8ee.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Ridgeview Un No 1 <br>23 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_70970ac8aca2654c1fab2f4d4a7161c7 = L.circleMarker(
+                [37.396412, -122.109805],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.066131444589949, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_70970ac8aca2654c1fab2f4d4a7161c7.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>University Place <br>21 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cb67fffb4356a066072f0fe92066fc15 = L.circleMarker(
+                [37.159461151045214, -121.96930661099195],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_cb67fffb4356a066072f0fe92066fc15.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Stewart Addition No. 2 to Aldercroft Heights <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e51871aa25e1ae46f7b7597aa3bea479 = L.circleMarker(
+                [37.31371336098704, -122.07141028027469],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.441608391075414, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_e51871aa25e1ae46f7b7597aa3bea479.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Map of Inspiration Heights Monta Vista <br>17 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_db35a801b85647c8a8a79d25b9ec5510 = L.circleMarker(
+                [37.178383519916956, -121.81774990335693],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.9835338219195, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_db35a801b85647c8a8a79d25b9ec5510.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Lake Almaden Properties Blk C <br>61 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_21eedb471400d61733b3bea1cfae9da9 = L.circleMarker(
+                [37.29612142648207, -121.89353315114836],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.503511027316918, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_21eedb471400d61733b3bea1cfae9da9.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Restwood Park Map No 1 <br>24 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a338fb2e70819a55551b59e135fc5cad = L.circleMarker(
+                [37.233441, -121.961105],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.922803312386448, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a338fb2e70819a55551b59e135fc5cad.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Coombs Subdivision of the Estate of M.g. Garden <br>13 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b52245c8208db0c35b594d37727fe9c7 = L.circleMarker(
+                [37.298356633413334, -121.90455836780622],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.3227893355779585, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_b52245c8208db0c35b594d37727fe9c7.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Cherry Park Blk 1 <br>30 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_15b8f557d434d23bcf5d2992a97e1c2d = L.circleMarker(
+                [37.43574849139273, -122.14513832354577],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.711658588683104, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_15b8f557d434d23bcf5d2992a97e1c2d.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Dougherty Randol <br>33 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9227c21add8363e78a811aec3637c8a4 = L.circleMarker(
+                [37.16946702841082, -121.82774220183903],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.4084098977331, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_9227c21add8363e78a811aec3637c8a4.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Block B of Almaden Manor <br>47 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3b322514c4a60ec31d712eea0412126e = L.circleMarker(
+                [37.151064, -121.970442],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.1572334590246225, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_3b322514c4a60ec31d712eea0412126e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>The Call of the Wild <br>7 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b3680f5fde26d9cb6e7dd5db20f5258e = L.circleMarker(
+                [37.407896272540405, -122.07395962636629],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.527135628507603, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_b3680f5fde26d9cb6e7dd5db20f5258e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Terra Bella Acres <br>66 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_13d0284f1219b83cd0dad218cb37ab68 = L.circleMarker(
+                [37.31934221489881, -121.88805210427617],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_13d0284f1219b83cd0dad218cb37ab68.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Conkling and Col Subd <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_31aecac3a4c183ba960cd748ee34ed25 = L.circleMarker(
+                [37.315691, -121.900084],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.9745588260449085, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_31aecac3a4c183ba960cd748ee34ed25.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Palm Haven <br>6 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f526e6ef3da49b252d6bf5eff82cb529 = L.circleMarker(
+                [37.23716277445588, -121.97180098201896],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5142555136584592, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_f526e6ef3da49b252d6bf5eff82cb529.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Roberts Subd <br>4 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_25ad3246d74292a87c03a1605888bc13 = L.circleMarker(
+                [37.38095788525468, -122.11394382649212],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.208988972683081, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_25ad3246d74292a87c03a1605888bc13.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>301 2/10 320 Acres of School Land <br>3 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d6273c7514c5eb131066c078c4727b74 = L.circleMarker(
+                [37.421528, -122.133895],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.651981721011264, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_d6273c7514c5eb131066c078c4727b74.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Bartley Tract Subdivision 1 <br>126 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dd4ef34f4bc6bf474b5566f8d3f00370 = L.circleMarker(
+                [37.43267187315057, -122.15140715758157],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.377568612409014, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_dd4ef34f4bc6bf474b5566f8d3f00370.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Southgate <br>196 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4a2b209081a6948cdb27052f8ca05776 = L.circleMarker(
+                [37.353200801841965, -121.90077776659486],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.213818329342951, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_4a2b209081a6948cdb27052f8ca05776.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Vendome Park <br>37 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b1e0aff675ec524a998f220ecc03edb0 = L.circleMarker(
+                [37.3333500184173, -121.87216310399015],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.318363904733873, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_b1e0aff675ec524a998f220ecc03edb0.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>L. E. Appleton Addition to Naglee Park <br>8 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2c9240fc1316a9eead3cceda72bc7d70 = L.circleMarker(
+                [37.420844, -122.13262],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.360165411391558, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_2c9240fc1316a9eead3cceda72bc7d70.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Bartley Tract Subdivision 3 <br>23 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3cc93913b52b0ba858cdfc24f242ec9a = L.circleMarker(
+                [37.43619389361837, -122.13786748108444],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.821421559766535, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_3cc93913b52b0ba858cdfc24f242ec9a.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Sherman Park Tract Blk 79 80 <br>12 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0de3c616d6541507d61bb2c772cef82e = L.circleMarker(
+                [37.357949727973356, -121.90592174177206],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.441608391075414, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_0de3c616d6541507d61bb2c772cef82e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Burton Subd Chester B <br>17 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_07688aff250c47d6580f1b674f93b564 = L.circleMarker(
+                [37.42921434469771, -122.13699340995602],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.76074448634154, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_07688aff250c47d6580f1b674f93b564.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>South Court Addition <br>19 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e81a624838335cd81d474720c724863d = L.circleMarker(
+                [37.346705797717824, -121.92713453242324],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_e81a624838335cd81d474720c724863d.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Leigh Tract <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c6c3b94aca8729c9ac41c1e8af534271 = L.circleMarker(
+                [37.395209500211394, -122.12501870863632],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.867910532449617, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_c6c3b94aca8729c9ac41c1e8af534271.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Wasson Subd <br>51 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7f90191e1a1cb5d133f7d36771dee887 = L.circleMarker(
+                [37.45244822919219, -122.14512300833846],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.105477945366162, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_7f90191e1a1cb5d133f7d36771dee887.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Staller Subd <br>15 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4822eae48945e77290f692aa40f7c9be = L.circleMarker(
+                [37.295248175360456, -121.88941584422592],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.3227893355779585, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_4822eae48945e77290f692aa40f7c9be.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Lincoln Glen Manor <br>30 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3b8958d9123a24e8ceff4e7331afeed4 = L.circleMarker(
+                [37.447714, -122.142722],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.175187169796958, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_3b8958d9123a24e8ceff4e7331afeed4.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Clara Vista Addition <br>45 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_01f05c317dd858ee9ae285e12a119fe0 = L.circleMarker(
+                [37.29886998235507, -121.89059649976667],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.922803312386448, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_01f05c317dd858ee9ae285e12a119fe0.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Maurer Subd <br>13 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_be06f228f52a3f04ce16535f49ed9bf1 = L.circleMarker(
+                [37.333323616262746, -121.92590978062705],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_be06f228f52a3f04ce16535f49ed9bf1.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Dana Subd <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0ac513b25902577afa27a9f17c845443 = L.circleMarker(
+                [37.355954817042644, -121.86072736057245],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.922803312386448, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_0ac513b25902577afa27a9f17c845443.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Darlhaven <br>13 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9105c6460f541a2236cd939989fa3dfc = L.circleMarker(
+                [37.40584104637658, -122.09960805442286],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.275914102341562, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_9105c6460f541a2236cd939989fa3dfc.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Rosedale <br>16 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_da85f437d60eac5f4462711f835b5b84 = L.circleMarker(
+                [37.378726075902584, -121.85059737791408],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.441608391075414, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_da85f437d60eac5f4462711f835b5b84.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Elmwood Subd <br>17 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_07201060dfbaf5894f1b865a9a820fd3 = L.circleMarker(
+                [37.158820310842344, -121.97022099464662],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.105477945366162, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_07201060dfbaf5894f1b865a9a820fd3.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Stewart Add to Aldercroft Heights <br>15 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4027c3384fee7ea3c152b254db433bef = L.circleMarker(
+                [37.3699065183818, -122.03415541583387],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.93937593093149, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_4027c3384fee7ea3c152b254db433bef.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Pal Jose Subd <br>43 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9028a30c420c4814c2055b9b145bc48a = L.circleMarker(
+                [37.44565704719006, -122.15779166213258],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.711920925050017, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_9028a30c420c4814c2055b9b145bc48a.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>University Park Palo Alto <br>11 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7bf7de90ddcb018c45342199c1582e2e = L.circleMarker(
+                [37.18155825807559, -121.81680254757107],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.76074448634154, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_7bf7de90ddcb018c45342199c1582e2e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Block a <br>19 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2d8b2b51ce9a42382212623e7cfe92ee = L.circleMarker(
+                [37.31722077858551, -121.90005783546863],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.105477945366162, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_2d8b2b51ce9a42382212623e7cfe92ee.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Palm Haven Resurvey and Resubd <br>15 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0184c1f99a550cb2cba731be270789d5 = L.circleMarker(
+                [37.43891536736702, -122.13873172357972],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.213818329342951, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_0184c1f99a550cb2cba731be270789d5.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Seale Tr Subd No 8 Amended <br>37 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_79a12383d3f19a0ad9301cdc42223a7c = L.circleMarker(
+                [37.323558045341535, -121.89130733689842],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_79a12383d3f19a0ad9301cdc42223a7c.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Subdivision of the Driscoll Addition No. 2 <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2238058ef1a10fd1d898217a9c5413e3 = L.circleMarker(
+                [37.45227291448444, -122.14935843976913],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_2238058ef1a10fd1d898217a9c5413e3.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Boyce and Ashby Tract <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_daf4de0365b48e84f082064e2adfec5e = L.circleMarker(
+                [37.29132042938248, -121.88566039992584],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_daf4de0365b48e84f082064e2adfec5e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Lincoln Half Acres <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a359f326bc6247223743a0e8e6632042 = L.circleMarker(
+                [37.15967726203381, -121.96817210301195],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.838814339703368, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a359f326bc6247223743a0e8e6632042.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Stewart Addition No. 3 to Aldercroft Heights <br>34 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e7e935bd652d926e3aaebd4f4dff9222 = L.circleMarker(
+                [36.986003136385804, -121.68899921021972],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.76074448634154, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_e7e935bd652d926e3aaebd4f4dff9222.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Subdivision No. 1 Magic Springs 7 Miles West of Gilroy <br>19 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0b4265919fc5958bc9a362b3201bd198 = L.circleMarker(
+                [37.30431330367948, -121.88988435401068],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.821421559766535, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_0b4265919fc5958bc9a362b3201bd198.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>North Glen Residence Tract a <br>12 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1358692e262616cbc0e74688977aa94e = L.circleMarker(
+                [37.3704754310781, -122.03146831603668],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4625, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1358692e262616cbc0e74688977aa94e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Brill Addition <br>9 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e770374dd9695efbdf888e68bc8044b = L.circleMarker(
+                [37.305203286698465, -121.90141600677333],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.318363904733873, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1e770374dd9695efbdf888e68bc8044b.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Mcgaughey Tract <br>8 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_82d18a36f46ff8ad637f488db1fef9fe = L.circleMarker(
+                [37.329837432687576, -121.9305628008526],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.487062815684494, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_82d18a36f46ff8ad637f488db1fef9fe.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Rose Park Unit No 4 <br>75 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_52ba7f7d6229c07daea37cb2ec949344 = L.circleMarker(
+                [37.35899872687669, -121.9040201410983],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.821421559766535, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_52ba7f7d6229c07daea37cb2ec949344.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Burton Subd No 2 Chester B <br>12 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_19b2f2e9e34ac777246ba8f4642f1781 = L.circleMarker(
+                [37.37100731919577, -122.03465505957685],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5142555136584592, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_19b2f2e9e34ac777246ba8f4642f1781.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Pal Jose Subd No 2 <br>4 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cb71bc1f7eb40282183ddb2fea8cabbe = L.circleMarker(
+                [37.44187168422881, -122.1415619269106],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.09454034344235, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_cb71bc1f7eb40282183ddb2fea8cabbe.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Embarcadero Oaks <br>53 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f3589b4922162c0b4359fd35841813e1 = L.circleMarker(
+                [37.45576546426323, -122.15232330204826],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.208988972683081, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_f3589b4922162c0b4359fd35841813e1.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Re-subdivision <br>3 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1331097386bfe15b402e0d1e8b36a805 = L.circleMarker(
+                [37.421311, -122.133512],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.644666046108076, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1331097386bfe15b402e0d1e8b36a805.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Bartley Tract <br>25 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_da2b2c49fc0408c80d79b4602e42a2e3 = L.circleMarker(
+                [37.368888, -122.105262],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.592886958248409, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_da2b2c49fc0408c80d79b4602e42a2e3.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Costello Acres <br>10 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_75687f251b3c17d8b77c2fd8c8077638 = L.circleMarker(
+                [37.36386460675495, -121.8352833901182],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.592886958248409, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_75687f251b3c17d8b77c2fd8c8077638.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>American City Subdivision <br>10 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_26cf36d889633cdd30f94b9f18f3188b = L.circleMarker(
+                [37.38242800878449, -122.01962198957085],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_26cf36d889633cdd30f94b9f18f3188b.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Fairoaks Addition <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_21c704325660dcf01b7f5c9128d4e9e8 = L.circleMarker(
+                [37.42389060473539, -122.12019232137892],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.9745588260449085, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_21c704325660dcf01b7f5c9128d4e9e8.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Tract No. 587 Santa Clara County <br>6 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_77cc34bca614da01bbd4ae90979d7262 = L.circleMarker(
+                [37.43633331782226, -122.1321125396285],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.208988972683081, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_77cc34bca614da01bbd4ae90979d7262.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Laumeister Subd No 2 <br>3 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d071d6adb7df7fc2f3634e56417635ef = L.circleMarker(
+                [37.37306819030461, -121.79613399485446],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7636764387084773, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_d071d6adb7df7fc2f3634e56417635ef.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Huyck Rancho a L <br>5 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8239e2e607b39dd1c05ba67541ebd5bf = L.circleMarker(
+                [37.20841573079804, -121.84103303287749],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.453722431707704, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_8239e2e607b39dd1c05ba67541ebd5bf.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Santana Subd <br>31 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3634cd8518e2ef3541ea823fbc92b1ec = L.circleMarker(
+                [37.32385657020768, -121.9315915426898],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_3634cd8518e2ef3541ea823fbc92b1ec.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Map No. 62 <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a42c403fbc5086e217765da97513757e = L.circleMarker(
+                [37.35483719966192, -121.86329994907108],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.208988972683081, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a42c403fbc5086e217765da97513757e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Chace Villa Lots Un No 3 J R <br>3 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_52e4e44938508bc080a776c3d3e3daea = L.circleMarker(
+                [37.038169002634746, -121.61395217356933],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_52e4e44938508bc080a776c3d3e3daea.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Phelps Subd R M <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6cc937ca06c8ad1208525bff0994f3ae = L.circleMarker(
+                [37.4148857144893, -122.07405014638704],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_6cc937ca06c8ad1208525bff0994f3ae.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Subdivision of Lots 4-5 <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ee7c3ffc1c5c9531430c40d88bf7edf1 = L.circleMarker(
+                [37.3843138322856, -121.82013364067065],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.583318910615345, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_ee7c3ffc1c5c9531430c40d88bf7edf1.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Fairway Park <br>32 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3abf7449f871bbe7810e5fe86c76bd6f = L.circleMarker(
+                [37.309314795886245, -121.88896825691779],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.360165411391558, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_3abf7449f871bbe7810e5fe86c76bd6f.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Whitehurst Subd <br>23 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0c92024021f3c1fbeca44cf939a5ce77 = L.circleMarker(
+                [37.401695637423714, -122.09939116994957],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.017187466025396, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_0c92024021f3c1fbeca44cf939a5ce77.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Map of University Park <br>14 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8e21d98cc813cdb3410af39bef699e6c = L.circleMarker(
+                [37.304726534046296, -121.90281007538863],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.914990778411846, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_8e21d98cc813cdb3410af39bef699e6c.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Britton Tr <br>20 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_001d91c2894e298b450ca3e653fb0631 = L.circleMarker(
+                [37.33783003016, -121.93081574292326],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.922803312386448, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_001d91c2894e298b450ca3e653fb0631.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Burrell Park <br>13 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b0b8d81986e6ce6e39c904be19d5383f = L.circleMarker(
+                [37.39928200243643, -122.1140110974897],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.1572334590246225, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_b0b8d81986e6ce6e39c904be19d5383f.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>San Antonio Villa Park <br>7 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_92afb4e6314b47d6c3adbb0265396407 = L.circleMarker(
+                [37.43446669478891, -122.14192420383807],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.1572334590246225, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_92afb4e6314b47d6c3adbb0265396407.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Seale Tr Subd No 7 <br>7 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dc5d843b8efcb214e2beed2f48766954 = L.circleMarker(
+                [37.35696567497944, -122.10551031965022],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_dc5d843b8efcb214e2beed2f48766954.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Hillhaven <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a21dfd228646ced1e2bd8e6092fafd7d = L.circleMarker(
+                [37.296485168322285, -121.9013037366312],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.921047798727989, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a21dfd228646ced1e2bd8e6092fafd7d.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Pine Glen Tr <br>27 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_709cbe3908908d8f4cef60b73b183852 = L.circleMarker(
+                [37.33391009706831, -121.92707511208782],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.1572334590246225, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_709cbe3908908d8f4cef60b73b183852.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Colonial Manor <br>7 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cde976206a6b4ba17b6ac274475d8434 = L.circleMarker(
+                [37.43473916376528, -122.13631312926569],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.360165411391558, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_cde976206a6b4ba17b6ac274475d8434.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Breck Subd <br>23 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4aac900226f3b335c76c50aa61d130cb = L.circleMarker(
+                [37.22031566274725, -121.97018971435136],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_4aac900226f3b335c76c50aa61d130cb.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Johnson Addn <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e45f5e8b03ad60e2c6a33092ed4fd8a = L.circleMarker(
+                [37.35780269480652, -121.84036743623804],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7636764387084773, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1e45f5e8b03ad60e2c6a33092ed4fd8a.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Foss Subd <br>5 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bc200f1d177aec3e1618aa683f00135e = L.circleMarker(
+                [37.20081991181959, -121.99783027181904],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.964852877416954, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_bc200f1d177aec3e1618aa683f00135e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Vista Grande Map No 1 <br>35 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c2d00a687fea739a1d0f4b756ea0f111 = L.circleMarker(
+                [37.37379498947067, -122.03271458333681],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.208988972683081, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_c2d00a687fea739a1d0f4b756ea0f111.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Burton Subdivision <br>3 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0d303a5748569c0396ed084e22d2d291 = L.circleMarker(
+                [37.291773295417805, -121.88761142353428],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_0d303a5748569c0396ed084e22d2d291.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Lincoln Manor <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fe13dbfe69a95964cda4b15980ed9905 = L.circleMarker(
+                [37.15023250359893, -121.97952171458489],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.922803312386448, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_fe13dbfe69a95964cda4b15980ed9905.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Mountain Springs <br>13 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_024b1e9040368489032652db4982fa28 = L.circleMarker(
+                [37.31155538578497, -121.94822374407119],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.592886958248409, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_024b1e9040368489032652db4982fa28.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Winchester Homesites <br>10 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f6e58023d1c03d0f782f7d9f9c013c3f = L.circleMarker(
+                [37.27344, -121.967899],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.208988972683081, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_f6e58023d1c03d0f782f7d9f9c013c3f.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Subdivision of the E.n. Parr Tract <br>3 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_31404ef1e647e33455c786f4781d5697 = L.circleMarker(
+                [37.42911819634545, -122.14561507857695],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_31404ef1e647e33455c786f4781d5697.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Evergreen Park Mayfield <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c77be28e35504982626553c163b11804 = L.circleMarker(
+                [37.04302012699211, -121.59897730478161],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.1572334590246225, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_c77be28e35504982626553c163b11804.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Palm Haven Resubd <br>7 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e2b79e15c4b372f776d15f25c110b811 = L.circleMarker(
+                [37.332659965274836, -121.86915728814584],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4625, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_e2b79e15c4b372f776d15f25c110b811.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Naglee Park Extension <br>9 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cbece923b5aab53a4125ce445e9366be = L.circleMarker(
+                [37.35045442897976, -121.8622002930413],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.9745588260449085, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_cbece923b5aab53a4125ce445e9366be.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>East Moreland Park <br>6 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2b723f69392f8676a418e1d87e1fe3e6 = L.circleMarker(
+                [37.341952299863586, -121.86072058404497],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.208988972683081, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_2b723f69392f8676a418e1d87e1fe3e6.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Elm Leaf Park <br>3 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ed694e64c72e7282c37f8495a308aaf1 = L.circleMarker(
+                [37.428853, -122.132018],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.639255513658458, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_ed694e64c72e7282c37f8495a308aaf1.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Stanford City No. 1 <br>49 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c194fab40748328f522fb44e0cdf38e7 = L.circleMarker(
+                [37.18712721842832, -121.71589411867981],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_c194fab40748328f522fb44e0cdf38e7.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Murphy-colombet Subd No 3 <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_64548ab357fa5cc19655947f97d8427b = L.circleMarker(
+                [37.37273326992819, -121.82037824636593],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.275914102341562, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_64548ab357fa5cc19655947f97d8427b.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Gion Subd Thos <br>16 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c36322fd52f8fed56a48ecf3427e5f59 = L.circleMarker(
+                [37.34692081490169, -121.9025521055469],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_c36322fd52f8fed56a48ecf3427e5f59.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Frantangelo Subd <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9eb6cd147371748c65a56172b3fc657c = L.circleMarker(
+                [37.432077508381376, -122.13852540019464],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.921047798727989, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_9eb6cd147371748c65a56172b3fc657c.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Laumeister Subd <br>27 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c6d61a07174bcd4b80210f1a78fda71e = L.circleMarker(
+                [37.31306659245238, -121.90057343604829],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.603073843001411, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_c6d61a07174bcd4b80210f1a78fda71e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Indiana Court <br>18 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a619795efcdef49e941d7ed6812fdf24 = L.circleMarker(
+                [37.3326592932532, -121.8704437979547],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.922803312386448, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a619795efcdef49e941d7ed6812fdf24.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Jones Addn to Naglee Park Alfred <br>13 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4cdb450b819ccfc58d0b63a3f592f547 = L.circleMarker(
+                [37.38785144394498, -122.13549233209791],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.318363904733873, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_4cdb450b819ccfc58d0b63a3f592f547.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Los Altos Villa Tract <br>8 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4d443e409cace44ae495fea64b441648 = L.circleMarker(
+                [37.345738626274226, -121.92690830307536],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_4d443e409cace44ae495fea64b441648.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Alameda Court Extension <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_54aa48d51b1939a357350ce5b6a03e91 = L.circleMarker(
+                [37.168631885682125, -121.98630132090295],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.208988972683081, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_54aa48d51b1939a357350ce5b6a03e91.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Idylwild Map of Subd No 2 <br>3 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_28bd71f2abd88bc91337858ad7166254 = L.circleMarker(
+                [37.38271309684763, -122.09389425848845],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.045980385811445, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_28bd71f2abd88bc91337858ad7166254.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Montebello Acres <br>90 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fd4291504e138c74c7de1cbe194c1a24 = L.circleMarker(
+                [37.450367048981136, -122.14883346658213],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_fd4291504e138c74c7de1cbe194c1a24.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Boyce Addn to Town of Palo Alto Resub <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bf99a7d0bb52fc935351baee226dfabc = L.circleMarker(
+                [37.33994132435052, -121.93032240125305],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.914990778411846, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_bf99a7d0bb52fc935351baee226dfabc.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Cline Subd Blks 1 and 2 <br>20 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_202553aa470590559126328a189cf59a = L.circleMarker(
+                [37.155504698779325, -121.98128588260421],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 32.02865324031183, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_202553aa470590559126328a189cf59a.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Redwood Estates Map Tract No 1 <br>278 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a17711d1f2e0477a944a37694ab113db = L.circleMarker(
+                [37.42708120213646, -122.08529019608882],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a17711d1f2e0477a944a37694ab113db.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Levin Partition Joel <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f913187d9788cc9ea27e0de91dc2be5e = L.circleMarker(
+                [37.45188762489673, -122.14535795267261],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.336853512133471, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_f913187d9788cc9ea27e0de91dc2be5e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Lewis Subd in P a <br>38 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b873b9caeb5d90bc3a00b28110ebc057 = L.circleMarker(
+                [37.35200672752903, -121.86303548202962],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_b873b9caeb5d90bc3a00b28110ebc057.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Mt Hamilton View Park <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d67a2a3820223db419c411839e628d1e = L.circleMarker(
+                [37.422064, -122.151174],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.914990778411846, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_d67a2a3820223db419c411839e628d1e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>College Terrace <br>20 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_197a4e58b661b85c9c6ef78390216e47 = L.circleMarker(
+                [37.33161372580201, -121.91875609599434],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_197a4e58b661b85c9c6ef78390216e47.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Schiele Subdivision No. 2 <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a3c40471680ff4cf918390410ab6943f = L.circleMarker(
+                [37.453851516626855, -122.1488735680602],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.711920925050017, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a3c40471680ff4cf918390410ab6943f.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Ashby Addn <br>11 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_15ecc324e9f8a1af4fe7807638ec01d5 = L.circleMarker(
+                [37.30640730572418, -121.90324270818655],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_15ecc324e9f8a1af4fe7807638ec01d5.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Mellow Soil Manor Unit No 1 <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_11a3e3feaf5b3e751b02f77f7c64692a = L.circleMarker(
+                [37.34505357274938, -121.89957951120596],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.310677073424994, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_11a3e3feaf5b3e751b02f77f7c64692a.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Clayton and Co Subd of Vendome Grounds Jas a <br>64 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3cf14b9f644cdc382aba8ef8f0cfb5d0 = L.circleMarker(
+                [37.352394122662474, -121.89616612163195],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.592886958248409, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_3cf14b9f644cdc382aba8ef8f0cfb5d0.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Vendome Park Map No 2 <br>10 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5656583cbcf53afe9c2932808ff4aaed = L.circleMarker(
+                [37.41736986150635, -122.13181862999856],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7636764387084773, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_5656583cbcf53afe9c2932808ff4aaed.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Barron Park Subd <br>5 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1de44b773ecd8503745d94f5a7ce03ca = L.circleMarker(
+                [37.32558064268203, -121.90196518105748],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1de44b773ecd8503745d94f5a7ce03ca.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Los Coches Rancho <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b50505df2cd737613a99999572495bd2 = L.circleMarker(
+                [37.32449945504175, -121.92937251702561],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.4625, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_b50505df2cd737613a99999572495bd2.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Interurban Park Tr <br>9 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e1f6062eab1eda975758a895436352db = L.circleMarker(
+                [37.29165824180734, -121.94243899005363],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.214442683455417, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_e1f6062eab1eda975758a895436352db.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Dahls Addn <br>22 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a2e745f2b03d47bcb793b177cc56101c = L.circleMarker(
+                [37.173967922036134, -121.98989303386118],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7636764387084773, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a2e745f2b03d47bcb793b177cc56101c.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Idylwild Map of Subd No 3 <br>5 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bd31eed3ff932d677b0ba826ab3af530 = L.circleMarker(
+                [37.238420042193276, -121.97631328965632],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.7636764387084773, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_bd31eed3ff932d677b0ba826ab3af530.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Shelburne Addition to the Town of Los Gatos <br>5 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cecfa669d70861b078342e119520e0b7 = L.circleMarker(
+                [37.270938674155275, -122.10079802011992],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5142555136584592, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_cecfa669d70861b078342e119520e0b7.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Bordi Subd <br>4 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a8f2bf158e9119ef797a0f015369b232 = L.circleMarker(
+                [37.329341034807975, -121.91391471985027],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a8f2bf158e9119ef797a0f015369b232.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Hanchett Residence Park <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a814faa6c6aef57e56599089c0d44936 = L.circleMarker(
+                [37.33281072772981, -121.9293249696852],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.360165411391558, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a814faa6c6aef57e56599089c0d44936.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Rose Garden Subd <br>23 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_def5a764f3d2f3475cc1245c372ae32b = L.circleMarker(
+                [37.35909323541063, -121.83108805856428],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.921047798727989, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_def5a764f3d2f3475cc1245c372ae32b.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Tract No. 419 <br>27 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e7068a85b5170099ca3e4847514c41cf = L.circleMarker(
+                [37.406803635088586, -122.09087580258354],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.011727809467747, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_e7068a85b5170099ca3e4847514c41cf.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Oro Loma Acres <br>80 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b10e6c8013de1a768d1293fb0d206ff7 = L.circleMarker(
+                [37.45448222386992, -122.15041961482423],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_b10e6c8013de1a768d1293fb0d206ff7.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Neel Subd Amended <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9ca6310e25b989b7b6aa7e40bba285fa = L.circleMarker(
+                [37.04259446356455, -121.5847189675007],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.644666046108076, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_9ca6310e25b989b7b6aa7e40bba285fa.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>O Toole Ranch Subd <br>25 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d60d6a4749684327ffcd1f28dd987770 = L.circleMarker(
+                [37.35750393312398, -122.09730680171813],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.862972928386473, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_d60d6a4749684327ffcd1f28dd987770.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Los Altos Country Club Prop Loyola <br>118 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_51a0028ed8f76791fcecdae50d697b45 = L.circleMarker(
+                [37.314357000228206, -121.89202330068112],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_51a0028ed8f76791fcecdae50d697b45.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Wuensche Tract Mrs <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c1c33a9870ed83931378f9c88f563eb4 = L.circleMarker(
+                [37.22955434264204, -121.97756939050517],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_c1c33a9870ed83931378f9c88f563eb4.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Twin Oaks Tract - Hannah Sacketts <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bead1f38166bdc4386ad1528acdf0662 = L.circleMarker(
+                [37.43805404928223, -122.14915473884106],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_bead1f38166bdc4386ad1528acdf0662.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Seale Addn Map No 1 <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2503e2aba17a9aa9f945255232f6b242 = L.circleMarker(
+                [37.28994188442865, -121.90318963120974],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.603073843001411, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_2503e2aba17a9aa9f945255232f6b242.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Farrington Tract No 1 S D <br>18 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_729be80cceabb5325c64f6c6992b04b1 = L.circleMarker(
+                [37.34572603241755, -121.92454685857903],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5142555136584592, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_729be80cceabb5325c64f6c6992b04b1.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Myrtle Park <br>4 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_275850b02d3fef447efed71aa99d71df = L.circleMarker(
+                [37.339747082853556, -121.9181948986938],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_275850b02d3fef447efed71aa99d71df.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Powell's Subdivision of Lot No. 1 in Block No. 15 <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_551d5ca6cac96e9a2c00a50119289e65 = L.circleMarker(
+                [37.327433052542744, -121.89658978693956],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_551d5ca6cac96e9a2c00a50119289e65.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Mcclory Addition <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1270cd907db5716ba271f9c240a614d9 = L.circleMarker(
+                [37.26026800435534, -121.97350046248188],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.9745588260449085, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1270cd907db5716ba271f9c240a614d9.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>La Rinconada Acres <br>6 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ef84ab8b799306fe72a1a8fd35d80d60 = L.circleMarker(
+                [37.38819820343911, -121.81386130274232],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.213818329342951, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_ef84ab8b799306fe72a1a8fd35d80d60.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Edgemont Resub <br>37 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8bb93a505cd2f94cd06c810a19ebb7b5 = L.circleMarker(
+                [37.32262340043912, -122.03100949710425],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.820425635075697, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_8bb93a505cd2f94cd06c810a19ebb7b5.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Cali Subd <br>42 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6918e0c61c8a64c125590f59abe2ab51 = L.circleMarker(
+                [37.237768277573366, -121.98078837286516],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_6918e0c61c8a64c125590f59abe2ab51.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Bruce Tract <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_627e302b29e31b55709ee94c311620a9 = L.circleMarker(
+                [37.31202366632804, -121.90249499238764],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.453722431707704, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_627e302b29e31b55709ee94c311620a9.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Ramona Subd <br>31 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_adcb7b1643696c266d133fb0efbb7cc3 = L.circleMarker(
+                [37.39567681294513, -122.13385929074562],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.7837958571008095, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_adcb7b1643696c266d133fb0efbb7cc3.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Oak Hill Tract <br>26 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bf613d313be4953ee4347161f18ecd8b = L.circleMarker(
+                [37.33715369581531, -121.87353468694359],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.356778308261042, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_bf613d313be4953ee4347161f18ecd8b.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Naglee Park Tract Survey No. 3 <br>123 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c2ea960e3d7ab44298e163cfb0e30370 = L.circleMarker(
+                [37.3764386875097, -121.8194033523345],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_c2ea960e3d7ab44298e163cfb0e30370.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Altadena <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_daaeb0559c741ebda15bfe9a144c25f2 = L.circleMarker(
+                [37.22246872714284, -121.96641947225493],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.105477945366162, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_daaeb0559c741ebda15bfe9a144c25f2.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Ramelview <br>15 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1707e82cf9beb9a476b47debbc60908e = L.circleMarker(
+                [37.33001770619155, -121.88990983077711],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1707e82cf9beb9a476b47debbc60908e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Auzerais Addition to the City of San Jose <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1d0fecfef774295d971abb04e17b93ad = L.circleMarker(
+                [37.32802831698292, -121.92948854774582],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.820425635075697, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1d0fecfef774295d971abb04e17b93ad.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Trace Park <br>42 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9dcdabb5ca64f6c68bad159002dc70bf = L.circleMarker(
+                [37.267352741476, -121.9606383333273],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.066131444589949, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_9dcdabb5ca64f6c68bad159002dc70bf.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>San Tomas Acres <br>21 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5f5c47eab83ba02c34f3623d11be81f2 = L.circleMarker(
+                [37.372399469558275, -121.82211327238994],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.208988972683081, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_5f5c47eab83ba02c34f3623d11be81f2.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Claremont Subd <br>3 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dc7593d128ef60307a6637cde3ee28cc = L.circleMarker(
+                [37.40765227921164, -122.09415591014123],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.017187466025396, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_dc7593d128ef60307a6637cde3ee28cc.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Bella Vista Acres <br>14 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a1ebce37bf770085a6f2a469ff0ef116 = L.circleMarker(
+                [37.31232807171625, -121.88745979466826],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.1572334590246225, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a1ebce37bf770085a6f2a469ff0ef116.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Del Rio Manor <br>7 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_91a3190af7bde68cb8a082055bbbea8e = L.circleMarker(
+                [37.455041605117636, -122.14783690187666],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.2582011010341, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_91a3190af7bde68cb8a082055bbbea8e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Crescent Park <br>122 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1dc2b2217e4d36a725e7196d0905978d = L.circleMarker(
+                [37.39061015192558, -122.08468987665728],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.208988972683081, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1dc2b2217e4d36a725e7196d0905978d.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Graham Subd J B Amended <br>3 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cfb41f31835606aed9bb2ed93ef957af = L.circleMarker(
+                [37.42505510946378, -121.97202094421704],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_cfb41f31835606aed9bb2ed93ef957af.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Subdivision of the Hyde Tract <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1391a2afc631b777b3117a50ccb0c2a5 = L.circleMarker(
+                [37.29244679859916, -121.88861191552526],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1391a2afc631b777b3117a50ccb0c2a5.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Terra Bella Tract Blk 1 and 2 <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3857255fbdf98c69c17c021b43060571 = L.circleMarker(
+                [37.12353355685744, -121.5922537677153],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_3857255fbdf98c69c17c021b43060571.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Santa Catherina Hills Map No 1 <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_02264e1d4d5953ebeca4b9964c2e52b4 = L.circleMarker(
+                [37.37164472709287, -121.95810153388462],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_02264e1d4d5953ebeca4b9964c2e52b4.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Oaks Subd <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fa42a0dfcc300a8d33671757d1ce943a = L.circleMarker(
+                [37.34335901683883, -121.93261481717659],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.066131444589949, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_fa42a0dfcc300a8d33671757d1ce943a.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Alameda Residence Tract No. 1 <br>21 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_24aeab16a29a4459a09b561e0b1eb9b6 = L.circleMarker(
+                [37.37107573138008, -122.13338677939733],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.821421559766535, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_24aeab16a29a4459a09b561e0b1eb9b6.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Robleda Heights <br>12 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_aadc1b46b550ba19e548cf7d2282fadd = L.circleMarker(
+                [37.33479522145277, -121.92815328914065],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.921047798727989, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_aadc1b46b550ba19e548cf7d2282fadd.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Rose Park Unit No 3 <br>27 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_39352608fdc59a4934f4429fd9230b44 = L.circleMarker(
+                [37.373847159756934, -121.81600215105787],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_39352608fdc59a4934f4429fd9230b44.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Record of Survey of Land of Ed. Garafalo <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7799215083de53336eed9c1ab3a43c0a = L.circleMarker(
+                [37.29549524184762, -121.89287393327483],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.11720828480663, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_7799215083de53336eed9c1ab3a43c0a.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Lincoln Gates <br>141 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fca6a1db5f026163822134812fb5dce5 = L.circleMarker(
+                [37.34008549831903, -121.92453245049924],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.226181744162833, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_fca6a1db5f026163822134812fb5dce5.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Chapman and Davis Tract <br>205 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8772181fc5ec38dde98e0e7db92b96ed = L.circleMarker(
+                [37.28282871800333, -121.83628509102337],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.7837958571008095, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_8772181fc5ec38dde98e0e7db92b96ed.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Hi Way Ranchos <br>26 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_47651097923c6f97dd57ef17f83f200b = L.circleMarker(
+                [37.332823206110795, -121.93112744344178],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.644666046108076, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_47651097923c6f97dd57ef17f83f200b.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Rose Park Unit No 2 <br>25 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fb2e5533deccda84d185bc1726cf6346 = L.circleMarker(
+                [37.450604001892415, -122.14098269321528],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_fb2e5533deccda84d185bc1726cf6346.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Tract No. 286 <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a7ecb9290504652f6bdcd49877fc00c5 = L.circleMarker(
+                [37.31761622398004, -121.88262776233641],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a7ecb9290504652f6bdcd49877fc00c5.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Goodyear Tract in the City of San Jose <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7fd9f1f144ec36572c4f95108247be6f = L.circleMarker(
+                [37.33160395639591, -121.93243780950138],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.056553693381713, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_7fd9f1f144ec36572c4f95108247be6f.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Rose Park Unit No 5 <br>28 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7096cf9aeaa466b024bf790751076602 = L.circleMarker(
+                [37.35094436143546, -122.10687969103913],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.11720828480663, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_7096cf9aeaa466b024bf790751076602.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Subdivision of a Portion of Lot 39 of the Subdivision of the Hale Ranch Loyola Santa Clara County California <br>141 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6107c48d02e103bba3ddbca8a6617899 = L.circleMarker(
+                [37.34459144725684, -121.87912573280113],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.208988972683081, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_6107c48d02e103bba3ddbca8a6617899.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>F.a. Taylor Bock 6 <br>3 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4c1d815eb053006100ebb3ca7290eeef = L.circleMarker(
+                [37.30395123165543, -121.90386640014151],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_4c1d815eb053006100ebb3ca7290eeef.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Cherry - Glenn Manor <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_07ee42ecd7624ed1b4a805999da0c8ee = L.circleMarker(
+                [37.30334224053111, -121.90369533128109],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_07ee42ecd7624ed1b4a805999da0c8ee.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Glenn Gables <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_be5a4bda598771e4efaab699d2f77b85 = L.circleMarker(
+                [37.30624017242928, -121.90878423878472],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.583318910615345, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_be5a4bda598771e4efaab699d2f77b85.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>El Salcedo Unit No 1 <br>32 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fc0c89e49b848de59bc6a55ba38ae07a = L.circleMarker(
+                [37.320487231145336, -121.88158053160761],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_fc0c89e49b848de59bc6a55ba38ae07a.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Driscoll Addition to the City of San Jose <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9a82d367eaf82fd6b940364b1d4994e8 = L.circleMarker(
+                [37.32568089929456, -121.90974438945938],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_9a82d367eaf82fd6b940364b1d4994e8.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Mccormick-caldwell Tract <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_208cddeb1aa0ade80208cfda716c08e3 = L.circleMarker(
+                [37.388980066097055, -122.08847260569132],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_208cddeb1aa0ade80208cfda716c08e3.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Snow and Pettis Addition <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d006934508219ee26c974ed0f4875850 = L.circleMarker(
+                [37.3490846012742, -122.09709587844908],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.164590541050037, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_d006934508219ee26c974ed0f4875850.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Los Altos Country Club Prop Subd No 2 <br>101 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9a99665994cb945a162727416d5cbcdc = L.circleMarker(
+                [37.41860102216843, -122.08246073838019],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.65833096293867, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_9a99665994cb945a162727416d5cbcdc.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Los Alamos Acres <br>96 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1b4fe7907c166e36c3f35d707e30ff19 = L.circleMarker(
+                [37.306901528329156, -121.90818272828378],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.213818329342951, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1b4fe7907c166e36c3f35d707e30ff19.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>El Salcedo Unit No 2 <br>37 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d427fa84d6dd84eae3c3ca59a456d981 = L.circleMarker(
+                [37.34373025894979, -121.93452248564499],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.634485645748647, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_d427fa84d6dd84eae3c3ca59a456d981.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>El Camino Park <br>86 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8e6c9bec4cbb2e426224d5e9ac6f485e = L.circleMarker(
+                [37.31571681846173, -121.8862471733043],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_8e6c9bec4cbb2e426224d5e9ac6f485e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Subdivision of Block 1 <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2dbaa78552b849c4054f99883117b56f = L.circleMarker(
+                [37.30425292300194, -121.89427978265445],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.04747229580929, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_2dbaa78552b849c4054f99883117b56f.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Herschbachs Subd of North Glen Residence Park <br>161 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2f2ac0fae69571d527878bd3e3adf101 = L.circleMarker(
+                [37.32944577180631, -121.9207152046145],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.175187169796958, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_2f2ac0fae69571d527878bd3e3adf101.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Marion Subd <br>45 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d809def37d095aeffa2a4485ae7f6eb3 = L.circleMarker(
+                [37.34350871083463, -121.9055586976382],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_d809def37d095aeffa2a4485ae7f6eb3.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Survey No.1 of the Polhemus Addition <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1bbdca200eea28f866ce0955d3bc9163 = L.circleMarker(
+                [37.23843754882684, -121.98083814108587],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.542298179723254, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1bbdca200eea28f866ce0955d3bc9163.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Bruce Heights <br>57 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8834dfa2ddb2596effd7c3218362dc6a = L.circleMarker(
+                [37.2293650175201, -121.96986531087744],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_8834dfa2ddb2596effd7c3218362dc6a.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Pine Vista <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_457454d7fb825bd7a7e72865ac43849f = L.circleMarker(
+                [37.3214831544553, -121.89072873719901],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_457454d7fb825bd7a7e72865ac43849f.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Bender's Subdivision <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8482fb04130257b78e4898be90214929 = L.circleMarker(
+                [37.35464649711377, -121.8978425192085],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5142555136584592, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_8482fb04130257b78e4898be90214929.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Vendome Park Map No 4 <br>4 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f62775c8c5140f6531532dd8d528c7f3 = L.circleMarker(
+                [37.433452, -122.123183],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_f62775c8c5140f6531532dd8d528c7f3.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>C.m. Wooster Co.'s Subdivision of Clarke Ranch <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7f6dbc5258d7c9ab2d33239274f42b98 = L.circleMarker(
+                [37.416702606437546, -122.09054793804624],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.159533466625458, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_7f6dbc5258d7c9ab2d33239274f42b98.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Sierra Vista Addition No 3 <br>121 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1eb7ebd32c4e8ae8811ab608d36c6462 = L.circleMarker(
+                [37.23056096110049, -121.96168206590333],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.056553693381713, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1eb7ebd32c4e8ae8811ab608d36c6462.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Englewood Subd <br>28 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_29271fcc101a6eb4ec671bff65717cb5 = L.circleMarker(
+                [37.344656709218576, -121.8911495261919],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_29271fcc101a6eb4ec671bff65717cb5.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Part of the Phillips <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ad72b841c5ce40cd777bf56c07ed0930 = L.circleMarker(
+                [37.03136451631194, -121.52450848417631],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_ad72b841c5ce40cd777bf56c07ed0930.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Cullen Tract <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fa087ca043853100cef83331b5c5a2fb = L.circleMarker(
+                [37.38923611004039, -121.81501217162268],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.336853512133471, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_fa087ca043853100cef83331b5c5a2fb.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Alum Rock Terrace Adjacent to Alum Rock Park Reservation <br>38 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7347d83241a0b8dfedf226f97906e6b7 = L.circleMarker(
+                [37.366967200850226, -121.82062541292188],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_7347d83241a0b8dfedf226f97906e6b7.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Montgomery and Rea Subd <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a7afc0749b54340b7e4ef74574234fe8 = L.circleMarker(
+                [37.330479125431324, -121.8902544539701],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_a7afc0749b54340b7e4ef74574234fe8.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Plat <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_496446c71985f034eda0a541bb27ce5d = L.circleMarker(
+                [37.45030829377115, -122.14510322341734],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.275579917152575, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_496446c71985f034eda0a541bb27ce5d.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Mayfair <br>73 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f7c164974d5dda346d395421fcb728a7 = L.circleMarker(
+                [37.29466718994427, -121.88426921178025],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_f7c164974d5dda346d395421fcb728a7.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Romani Subd Un No 1 <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_095f2a9ea44ac3a7da4309ed7837f4fa = L.circleMarker(
+                [37.31866030655786, -121.92578174860904],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.057619418392331, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_095f2a9ea44ac3a7da4309ed7837f4fa.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Beverly Place Unit No 1 <br>44 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_307838d598e30eff05eb6575e7b7cc45 = L.circleMarker(
+                [37.32634505251547, -121.92211596627881],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.503511027316918, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_307838d598e30eff05eb6575e7b7cc45.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Di Fiore Subd No 1 <br>24 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bc5c51f0da8b20a9acdeaf3459cf4863 = L.circleMarker(
+                [37.38928822706035, -121.82786052598702],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.840578520931475, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_bc5c51f0da8b20a9acdeaf3459cf4863.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Toyon Gardens <br>88 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_269831e3c56cf5573ba3d85e4580e3ab = L.circleMarker(
+                [37.44210561924165, -122.14027641534216],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.190431952366937, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_269831e3c56cf5573ba3d85e4580e3ab.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Embarcadero Oaks No 2 <br>29 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ece7df45bb4db8de0c11557de8c1b2d8 = L.circleMarker(
+                [37.45478008315909, -122.14999325247437],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_ece7df45bb4db8de0c11557de8c1b2d8.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Neel Subd C B <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7d9dae1680a7843712fb2e231d755c6e = L.circleMarker(
+                [37.3867109277124, -122.09904314672852],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_7d9dae1680a7843712fb2e231d755c6e.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Madigan Estate G <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_fe5c938b5c943a9ef6bbfb09fac53b1d = L.circleMarker(
+                [37.16094148483873, -121.9699156922516],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.873788980283917, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_fe5c938b5c943a9ef6bbfb09fac53b1d.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Amended Map of Steward Addition No. 2 to Aldercroft Heights <br>60 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e498a32359c09a554887bd8cde81def8 = L.circleMarker(
+                [37.373408629050886, -122.1529240766466],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_e498a32359c09a554887bd8cde81def8.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Partition of the Taaffe Tract <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1fb19b06808a8e83d02257c84ae73cb2 = L.circleMarker(
+                [37.3257128226084, -121.92133198711662],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.214442683455417, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_1fb19b06808a8e83d02257c84ae73cb2.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Tract No. 2 Difiore Subdivision No. 2 <br>22 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b44afd0dc8569a82ba1821bb89da2682 = L.circleMarker(
+                [37.30095273522629, -121.88987123675572],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_b44afd0dc8569a82ba1821bb89da2682.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Juanita Park Resubd <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7092764b22dff724bba7bfc184e2a2bc = L.circleMarker(
+                [37.23544182040271, -121.97938473145601],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_7092764b22dff724bba7bfc184e2a2bc.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Ball Tract <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_36bddeaed62809c30109b624fa1e9cc4 = L.circleMarker(
+                [37.21731230970819, -121.98554446614826],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_36bddeaed62809c30109b624fa1e9cc4.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Canyon View Terrace <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d96345412ed03c6309281f3c62fa23b6 = L.circleMarker(
+                [37.31907173388473, -121.92670091095445],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.527135628507603, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_d96345412ed03c6309281f3c62fa23b6.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Beverly Place Unit No 2 <br>66 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4a839996ff0d95b45d917a746644de8f = L.circleMarker(
+                [37.379506387972086, -122.03626685695744],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_4a839996ff0d95b45d917a746644de8f.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Tract No. 183 Pioneer Homes Unit No. 3 <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f3a92c3b0ceaeb449021fa34e140bcf8 = L.circleMarker(
+                [37.384976897223986, -121.81988014078115],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_f3a92c3b0ceaeb449021fa34e140bcf8.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Country Club Park <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_44cfdc33880b5aca31c68391b3350d55 = L.circleMarker(
+                [37.38431822099616, -122.13161876935082],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_44cfdc33880b5aca31c68391b3350d55.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Subdivision <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2925887e5f2f54afaee4ed0d74f634b4 = L.circleMarker(
+                [37.35445959497531, -121.88546771939181],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_2925887e5f2f54afaee4ed0d74f634b4.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>J. C. Morrils Subdivision Block 24 <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4f772116aa88423322b1419ea58cb472 = L.circleMarker(
+                [37.29982842528882, -121.89556815375342],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.867910532449617, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_4f772116aa88423322b1419ea58cb472.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Sequoia Park <br>51 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_82087a4874d9269368433e8313389fa6 = L.circleMarker(
+                [37.345075779899034, -121.92973708693438],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_82087a4874d9269368433e8313389fa6.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Alameda Court Part of the Rancho Portrero De Santa Clara <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0b01894acc9e7756fc0425b1eabd64fd = L.circleMarker(
+                [37.288345353826685, -121.88833921946105],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.7538460547085, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_0b01894acc9e7756fc0425b1eabd64fd.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Curtner Manor <br>50 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0212b2cf4c33318a1f5e05a0afba9229 = L.circleMarker(
+                [37.34844027536127, -121.87387094214526],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_0212b2cf4c33318a1f5e05a0afba9229.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Subdivision of the Lendrum Tract <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d0326144c3e3267e646c32c6f81e5702 = L.circleMarker(
+                [37.31837150523662, -122.06341704480785],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.318363904733873, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_d0326144c3e3267e646c32c6f81e5702.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Monta Vista Park <br>8 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b1bdbf5d8f503734b43f3bd80793a7dc = L.circleMarker(
+                [37.305911429470164, -121.89519755329944],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.8154319523669367, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_b1bdbf5d8f503734b43f3bd80793a7dc.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Willow Home <br>2 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_500c7216e266535e80df9ebcb62d7cee = L.circleMarker(
+                [37.293138589464974, -121.94243497641284],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.914990778411846, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_500c7216e266535e80df9ebcb62d7cee.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Mazzone Subd <br>20 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2a44b99a8ef57b5cfeff7a8ef9989e8b = L.circleMarker(
+                [37.38037971306047, -121.82235962690585],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.651981721011264, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_2a44b99a8ef57b5cfeff7a8ef9989e8b.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Country Club Heights <br>126 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ccd31a7613db88955dd9102ac6629309 = L.circleMarker(
+                [37.447714, -122.142722],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_ccd31a7613db88955dd9102ac6629309.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Linda Vista Addition <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_78c4b978ae01de52a6a0feb9a4d25e81 = L.circleMarker(
+                [37.22249253490953, -121.97279672510294],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.360165411391558, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_78c4b978ae01de52a6a0feb9a4d25e81.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>El Monte Subd Los Gatos <br>23 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ef3f5c601a2e860d7ae14b9833946dff = L.circleMarker(
+                [37.348557666970216, -121.92105730590558],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.2607444863415407, "stroke": true, "weight": 0}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+        
+    
+            circle_marker_ef3f5c601a2e860d7ae14b9833946dff.bindTooltip(
+                `<div>
+                     <div style='font-size: 14px;'>Hevrin Subd Blks 1 and 2 <br>1 racial covenants</div>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_f106e3cdf2cfb9c6e23a336de9183bf5_layers = {
+                base_layers : {
+                    "https://mapproxy.reglabapp.com/jawg-lagoon/{z}/{x}/{y}{r}.png" : tile_layer_a117db4caf638d91338b581fc22c8c89,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_f106e3cdf2cfb9c6e23a336de9183bf5 = L.control.layers(
+                layer_control_f106e3cdf2cfb9c6e23a336de9183bf5_layers.base_layers,
+                layer_control_f106e3cdf2cfb9c6e23a336de9183bf5_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_401fc24610e1e9f38d2abe58318062e5);
+
+        
+</script>
+</html>

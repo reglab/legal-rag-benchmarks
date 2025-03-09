@@ -1,0 +1,328 @@
+@font-face {
+  font-family: "Equity Caps A";
+  src: url("../../fonts/equity_a/equity_a_caps_regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Equity Text A";
+  src: url("../fonts/equity_a/equity_a_regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Equity Text A";
+  src: url("../fonts/equity_a/equity_a_italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Add when we start actually using them */
+/* @font-face {
+  font-family: "Equity Caps A";
+  src: url("../fonts/equity_a/equity_a_caps_bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "Equity Text A";
+  src: url("../fonts/equity_a/equity_a_bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "Equity Text A";
+  src: url("../fonts/equity_a/equity_a_bold_italic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}  */
+
+
+body {
+  font-family: 'Equity Text A', 'Noto Sans', sans-serif;
+  font-size: 1.2em;
+  color-scheme: light;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+.link-block a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+
+.title.is-1 {
+  font-size: 2.5rem !important;
+}
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+/* .teaser {
+  font-family: 'Google Sans', sans-serif;
+} */
+
+
+.publication-title {
+}
+
+.publication-banner {
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+.publication-header .hero-body {
+}
+
+.publication-title {
+    /* font-family: 'Google Sans', sans-serif; */
+}
+
+.publication-authors {
+    /* font-family: 'Google Sans', sans-serif; */
+} 
+
+.publication-venue {
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.abstract {
+  line-height: 1.4 !important;
+}
+
+.publication-authors a {
+   color: hsl(204, 86%, 53%) !important;
+   font-style: italic;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  padding: 20px;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+.slider-pagination .slider-page {
+  background: #000000;
+}
+
+.eql-cntrb { 
+  font-size: smaller;
+}
+
+.affiliations {
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.affiliation-separator {
+  margin: 0 0.5rem;
+}
+
+.author-notes {
+  color: #666;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.author-notes-separator {
+  margin: 0 0.5rem;
+}
+
+.footer {
+  padding-bottom: 1em !important;
+}
+
+.faq-item {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  /* padding-top: 2rem; */
+  border-bottom: 1px solid #eee;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-item h3 {
+  margin-bottom: 0.5rem;
+}
+
+.content-warning {
+  margin: 1rem auto 0 auto;
+  padding: 0.5rem 1rem;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 0.25rem;
+  color: #856404;
+  font-size: 0.9rem;
+  max-width: 600px;
+}
+
+.content-warning p {
+  margin: 0;
+}
+
+#other-efforts {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#other-efforts p {
+  font-size: 0.95em;
+  color: #4a4a4a;
+}
+
+#other-efforts a {
+  color: #3273dc;
+  text-decoration: none;
+}
+
+#other-efforts a:hover {
+  text-decoration: underline;
+}
+
+#acknowledgments {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#acknowledgments p {
+  margin-bottom: 1rem;
+}
+
+#acknowledgments a {
+  color: #3273dc;
+  text-decoration: none;
+}
+
+#acknowledgments a:hover {
+  text-decoration: underline;
+}
+
+/* Press Coverage Styles */
+.press-coverage {
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.press-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+/* When there's only one item, center it */
+.press-item:only-child {
+  grid-column: 1 / -1;
+}
+
+.press-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s;
+  padding: 1rem;
+}
+
+.press-item:hover {
+  transform: translateY(-5px);
+}
+
+.press-logo {
+  width: 120px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.press-title {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #363636;
+}

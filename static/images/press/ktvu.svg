@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   height="430.58911"
+   width="1034.4266"
+   sodipodi:docname="KTVU2020.svg"
+   xml:space="preserve"
+   viewBox="0 0 1034.4266 430.58912"
+   y="0px"
+   x="0px"
+   id="Layer_1"
+   version="1.1"><metadata
+   id="metadata23"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs21" /><sodipodi:namedview
+   inkscape:current-layer="Layer_1"
+   inkscape:window-maximized="1"
+   inkscape:window-y="-8"
+   inkscape:window-x="-8"
+   inkscape:cy="214.63875"
+   inkscape:cx="593.13134"
+   inkscape:zoom="1.0849609"
+   inkscape:snap-nodes="false"
+   inkscape:pagecheckerboard="true"
+   showgrid="false"
+   id="namedview19"
+   inkscape:window-height="1137"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff" />
+<path
+   id="path2"
+   d="m 663.42662,67.288757 c 60.4,-63.8999996 153.6,-84.6 235.4,-52.1 81.8,32.5 135.49998,111.400003 135.59998,199.300003 0,17.4 -2.1,34.7 -6.3,51.6 H 888.12662 c 0,0 32.7,-52.8 36.2,-77.9 5,-28.2 -3.1,-57.1 -22.1,-78.5 -34.3,-41.800003 -73.4,-42.300003 -108.8,-42.300003 z m 45.5,286.800003 c 0,0 88.5,-123.1 102.2,-146.3 5.6,-9.5 15.2,-19.2 7.6,-36.4 -4.4,-9.2 -13.7,-14.9 -23.9,-14.7 h -181.8 c -5.3,18.8 -7.9,38.2 -7.9,57.7 0.2,89.8 56.1,169.9 140.3,201.1 84.2,31.2 178.8,6.7 237.4,-61.4 z" />
+
+
+
+<polygon
+   transform="matrix(1.0169316,0,0,1.0169316,0.28800214,-5.979615)"
+   id="polygon10"
+   points="0,352.7 23.6,352.7 23.6,378.4 45.5,352.7 74.1,352.7 45.2,385.4 74.4,428 46.1,428 28.8,402.6 23.6,408.2 23.6,428 0,428 " />
+<polygon
+   transform="matrix(1.0169316,0,0,1.0169316,0.28800214,-5.979615)"
+   id="polygon12"
+   points="237.1,373.9 215.7,373.9 215.7,428 192.1,428 192.1,373.9 170.7,373.9 170.7,352.7 237.1,352.7 " />
+<polygon
+   transform="matrix(1.0169316,0,0,1.0169316,0.28800214,-5.979615)"
+   id="polygon14"
+   points="422.7,352.7 392.2,428.5 371.2,428.5 340.8,352.7 367,352.7 381.9,394.2 396.9,352.7 " />
+<path
+   style="stroke-width:1.01693"
+   id="path16"
+   d="m 573.22724,430.5891 c -22.88096,0 -35.49091,-12.50825 -35.49091,-35.18583 v -42.81282 h 24.20297 v 42.30436 c 0,8.94899 3.86434,13.52519 11.49133,13.52519 7.62699,0 11.59302,-4.37281 11.59302,-13.01673 v -42.91451 h 24.20297 v 42.20266 c 0,23.28773 -12.81334,35.89768 -35.99938,35.89768 z" />
+<style
+   id="style2">
+		tspan { white-space:pre }
+		.shp0 { fill: #000000 } 
+	</style><path
+   style="fill:#000000;stroke-width:0.598854"
+   id="path991-0"
+   fill-rule="evenodd"
+   class="shp0"
+   d="m 536.08802,210.9305 72.8386,128.35835 -83.89344,0.14372 -30.81104,-54.47175 -30.80504,54.47175 -83.88746,-0.14372 72.8386,-128.35835 -72.8386,-128.8015 h 83.46826 l 31.22424,55.03468 31.23622,-55.03468 h 83.46826 z M 289.474,82.212839 c 70.99412,0 128.54997,57.549861 128.54997,128.538011 0,70.98814 -57.55585,128.538 -128.54997,128.538 -71.00012,0 -128.54998,-57.54986 -128.54998,-128.538 0,-70.98815 57.54986,-128.538011 128.54998,-128.538011 z m 22.5169,75.689151 c 0,-12.04295 -10.43802,-22.82831 -22.16358,-22.82831 -11.73754,0 -21.22338,10.78536 -21.22338,22.82831 l -0.024,105.29648 c 0,12.05493 9.5098,21.81625 21.24135,21.81625 11.73155,0 22.16957,-9.45591 22.16957,-21.50485 z M 0,339.28885 V 82.129 h 159.91196 l 4.71298,70.14376 H 77.845018 v 33.65559 h 70.772552 v 70.36533 H 77.845018 v 82.99517 z" /><style
+   id="style1383"
+   type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#202033;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style><style
+   id="style858"
+   type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#202033;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style></svg>

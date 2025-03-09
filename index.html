@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="A Reasoning-Focused Legal Retrieval Benchmark"
+    />
+    <meta
+      property="og:title"
+      content="A Reasoning-Focused Legal Retrieval Benchmark"
+    />
+    <meta
+      property="og:description"
+      content="Reasoning intensive benchmarks for building and evaluating legal RAG systems."
+    />
+    <meta
+      property="og:url"
+      content="https://reglab.github.io/legal-rag-benchmarks"
+    />
+    <meta property="og:image" content="static/image/your_banner_image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta
+      name="twitter:title"
+      content="A Reasoning-Focused Legal Retrieval Benchmark"
+    />
+    <meta
+      name="twitter:description"
+      content="Reasoning intensive benchmarks for building and evaluating legal RAG systems."
+    />
+    <meta
+      name="keywords"
+      content="legal RAG, reasoning, benchmarks"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-Clacks-Overhead" content="GNU Andy Vallebueno" />
+
+    <title>
+      A Reasoning-Focused Legal Retrieval Benchmark
+    </title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="static/css/bulma.min.css" />
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css" />
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css" />
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+    <link rel="stylesheet" href="static/css/index.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+  </head>
+  <body>
+    <section class="hero is-dark" style="background-color: #8C1515;">
+      <div class="hero-body" style="padding-bottom: 1em">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">
+                A Reasoning-Focused Legal Retrieval Benchmark
+              </h1>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"> Lucia Zheng<sup>*</sup>, </span>
+                <span class="author-block"> Neel Guha<sup>*</sup>, </span>
+                <span class="author-block"> Javokhir Arifov, </span>
+                <span class="author-block"> Sarah Zhang, </span><br>
+                <span class="author-block"> Michal Skreta, </span>
+                <span class="author-block"> Christopher D. Manning, </span>
+                <span class="author-block"> Peter Henderson <sup>†</sup>, </span>
+                <span class="author-block"> Daniel E. Ho<sup>†</sup> </span>
+              </div>
+
+              <div class="affiliations" style="font-size: 0.9em; color: white;">
+                <span class="affiliation">Stanford University</span>
+                <span class="affiliation-separator">·</span>
+                <span class="affiliation">Princeton University</span>
+              </div>
+
+              <div class="is-size-6 author-notes" style="color: white;">
+                <span><sup>*</sup>Equal Contribution</span>
+                <span class="author-notes-separator">·</span>
+                <span
+                  ><sup>†</sup>Equal Advising</span
+                >
+              </div>
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <div class="mb-2">
+                    <span class="link-block">
+                      <a
+                        href="https://neelguha.github.io/assets/pdf/zheng_2025_reasoning_focused_legal_rag_benchmark.pdf"
+                        target="_blank"
+                        class="external-link button is-normal is-rounded is-light"
+                      >
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+                    <span class="link-block">
+                      <a
+                        href="https://huggingface.co/collections/reglab/a-reasoning-focused-legal-retrieval-benchmark-67a00c363f7e0d14619e95c5"
+                        target="_blank"
+                        class="external-link button is-normal is-rounded is-light"
+                      >
+                        <span class="icon">
+                          <i class="fas fa-robot"></i>
+                        </span>
+                        <span>Datasets</span>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="main-content">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="content has-text-justified">
+              <!-- Overview -->
+              <h2 class="title is-3 has-text-centered">Overview</h2>
+              <p>
+                As the legal community increasingly examines the use of large language models (LLMs) for various legal applications, legal AI developers have turned to retrieval-augmented LLMs (“RAG” systems) to improve system performance and robustness. An obstacle to the development of specialized RAG systems is the lack of realistic legal RAG benchmarks which capture the complexity of both legal retrieval and downstream legal question-answering. To address this, we introduce two novel legal RAG datasets: <b>Bar Exam QA</b> and <b>Housing Statute QA</b>. Below we offer a brief description of each dataset, and encourage you to read the paper for more details and experiment with the datasets. If you have questions, please reach out to us! 
+              </p>
+
+              <!-- Bar Exam QA -->
+              <h3 class="title is-4 has-text-centered">Bar Exam QA</h3>
+              <p>
+                Bar Exam QA is a dataset of multistate bar exam (MBE) questions designed for retrieval-augmented question answering in the legal domain. It consists of questions from historical bar exams released by the National Conference of Bar Examiners (NCBE) and practice bar exams from the Barbri MBE test preparation workbook. Each example contains a novel legal scenario, a specific legal question about the scenario, four answer choices, and gold explanation passages that support the correct answer. For questions from Barbri practice exams, the gold passages come directly from the answer key, while for historical bar exams, law students hand-annotated each example with supporting passages through a process modeled after real legal research. The dataset includes approximately 2,000 question-answer pairs with labeled gold passages. The retrieval passage pool contains around 900K passages, consisting of gold passages, U.S. caselaw from 2019-2021 (segmented at paragraph level), and legal encyclopedia entries from Cornell Law School's Legal Information Institute.
+              </p>
+
+              <!-- Housing Statute QA -->
+              <h3 class="title is-4 has-text-centered">Housing Statute QA</h3>
+              <p>
+                Housing Statute QA is a dataset covering statutory housing law across 50+ U.S. jurisdictions. Created by adapting the Legal Services Corporation (LSC) Eviction Laws Database, it provides questions about housing and eviction law with binary (Yes/No) answers. Each sample contains a legal question about housing law in a specific state, the corresponding answer, and relevant supporting statutes. The dataset was created by legally trained researchers who manually searched housing laws in each jurisdiction to answer these questions, simulating the real-world legal research process. The released version consists of two splits: a primary evaluation set containing 6,853 question-answer pairs with labeled supporting statutes, and a larger set (9,297 examples) containing additional question-answer pairs (intended for evaluation purely of LLM knowledge). The retrieval passage pool contains approximately 2 million passages from state statutes compiled from Justia's database of state laws from 2021.
+              </p>
+              
+              <!-- Takeaways -->
+              <h2 class="title is-3 has-text-centered">Takeaways</h2>
+              <p>
+                We're particularly excited about these datasets because they allow us to study each stage of the RAG pipeline---both retriever performance and downstream question-answering performance. Beyond RAG, we also think this a useful benchmark for measuring legal reasoning over statutes and other legal resources. We encourage you to read the paper for more details, but here are some highlights:
+              </p>
+              <ul>
+                <li><strong>Low lexical similarity challenges traditional retrievers</strong>: Both datasets feature much lower lexical similarity between queries and relevant passages compared to existing benchmarks, making them particularly challenging for traditional retrieval methods like BM25.</li>
+                <li><strong>Structured reasoning improves retrieval performance</strong>: Query expansion with structured legal reasoning rollouts significantly improves retrieval performance, with gains of up to 10 percentage points in Recall@10 for lexical retrievers.</li>
+                <li><strong>Challenging for even advanced models</strong>: The performance gap between current retrievers and perfect retrieval highlights significant room for improvement in legal retrieval systems.</li>
+              </ul>
+              
+
+              
+              <!-- Acknowledgments -->
+              <h2 class="title is-3 has-text-centered">Acknowledgments</h2>
+              <p>
+                We thank Maura Carey for annotating gold passages for the Bar Exam QA dataset. We thank Yvonne Hong for research assistance in processing the Bar Exam QA dataset. We thank Isaac Cui, Olivia Martin, and Catherina Xu for piloting early iterations of the retrieval method. We are grateful to Varun Magesh, Faiz Surani, Suvir Mirchandani, Isabel Gallegos, Jihyeon Je, Chenglei Si, and Aryaman Arora for helpful discussion. LZ is supported by the Stanford Interdisciplinary Graduate Fellowship (SIGF). NG is supported by the Stanford Interdisciplinary Graduate Fellowship (SIGF) and the HAI Graduate Fellowship. 
+                <br><br>
+                This work is dedicated to Andrea Vallebueno, in loving memory. Andrea was a dear friend and labmate. She had a brilliant, warm spirit with a special gift for research and teaching others. Her light overflowed on to each person in her life and inspired so so many, close and far. We remember and hope to carry on the legacy of her life, the dignity and respect with which she treated every person she encountered, her welcoming and inclusive nature, and her passion for her research on computational methods for addressing socially impactful problems.
+              </p>
+
+              <!-- BibTeX -->
+              <h2 class="title is-3 has-text-centered">BibTeX</h2>
+              <div class="content">
+                <pre style="text-align: left; white-space: pre-wrap;"><code>@inproceedings{zheng2025,
+  author = {Zheng, Lucia and Guha, Neel and Arifov, Javokhir and Zhang, Sarah and Skreta, Michal and Manning, Christopher D. and Henderson, Peter and Ho, Daniel E.},
+  title = {A Reasoning-Focused Legal Retrieval Benchmark},
+  year = {2025},
+  series = {CSLAW '25 (forthcoming)}
+}</code></pre>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" style="padding: 1rem 1.5rem;">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>© 2025 Stanford RegLab. All rights reserved.</p>
+          <p class="is-size-7 has-text-grey">Website made with the <a href="https://eliahuhorwitz.github.io/Academic-project-page-template/" class="has-text-grey">Academic Project Page Template</a>.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
